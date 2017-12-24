@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "sourceMap": false,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "exclude": [
+    ".cache",
+    "node_modules",
+    "dist"
+  ]
+}
